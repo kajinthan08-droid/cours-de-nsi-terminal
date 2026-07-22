@@ -1,0 +1,92 @@
+/*_____________________________________________________________________________
+  
+    FEUILLE DE STYLE CSS POUR EXPORT DES CONTACTS DU REPERTOIRE DE CONTACTS
+  _____________________________________________________________________________
+*/  
+
+/*Version : 02/05/2016 */
+
+
+/*Mise en forme globale de la page :
+  ----------------------------------*/
+body
+{
+/*Définition du fond de page :*/
+background-color: #253432;
+background-image: url("fond_01.jpg");
+/*background-attachment: scroll;*/
+
+/*Mise en forme de la police :*/
+text-align: justify;
+font-family: "Verdana";
+font-style: normal;
+font-weight: normal ;
+text-decoration: none;
+color: black;
+font-size: 16px;
+}
+
+
+/*Mise en forme titre page H1 :
+  -----------------------------*/  
+h1
+{
+border: 2px #EFECCA solid;
+border-radius: 8px;
+text-align : center;
+font-family: "Trebuchet MS";
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+color: #EFECCA;
+background-color: #A7A37E;
+font-size: 24px;
+}
+
+
+/*Mise en forme titre  H2 :
+  -------------------------*/
+h2
+{
+text-align: left;
+font-family: "Trebuchet MS";
+font-style: normal;
+font-weight: normal ;
+text-decoration: underline;
+color: #EFECCA;
+font-size: 18px;
+}
+
+
+/*Mise en forme tableau :
+ ------------------------*/
+table
+{
+text-align: center;
+font-family: "Verdana";
+font-size: 16px;
+color: #34393E;
+border: 3px solid;
+border-collapse: collapse; /*Bordures jointives*/
+background-color: #8CC6D7;
+}
+
+th
+{
+border: 3px #34393E solid;
+font-weight: bold;
+color: #34393E;
+background-color: #8CC6D7;
+/*background-color: #8CC6D7;*/
+}
+
+td
+{
+border: 2px #34393E solid;
+background-color: #FFF168;
+}
+
+tr
+{
+/*border: 2px white solid;*/
+}
